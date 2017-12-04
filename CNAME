@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css"
+    href ="style.css">
+</head>
+<style>
+.description{
+	color: red;
+    display: flex;
+
+}
+.image{
+	color: #3cb1d6;
+	max-width: 525px;
+}
+.app{
+	display: flex;
+}
+.title{
+	background-color: #1aedc1;
+}
+/* The animation code */
+@keyframes title {
+    0%   {background-color: white;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+.title {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    animation-name: title;
+    animation-duration: 4s;
+    animation-loop
+}
+</style>
+<body>
+    <h1 class="title">
+    My App
+    </h1>
+    <div class="app">
+        <div class="image"><img src="wallpaper2.jpeg" height="217" width="375"></div>
+        <div class="description">
+        <font size ="20">Clash of Clans</font>
+        </div>
+    </div>
+</body>
+ 
+</html>
